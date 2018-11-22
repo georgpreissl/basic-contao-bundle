@@ -8,7 +8,7 @@ Ein lokales Bundle ist eine Erweiterung die nicht auf Github veröffentlicht wir
 Nach erfolgreicher Installation stellt das Bundle im Backend ein (funktionsloses) Modul namens "mybundle" zur Verfügung.
 Das Modul wird unter den Backend-Modulen (schwarz hinterlegte Spalte auf der linken Seite) im Bereich "SYSTEM" aufgelistet.
 
-
+<br>
 ## Anleitung zur Installation:
 
 
@@ -17,19 +17,19 @@ Das Modul wird unter den Backend-Modulen (schwarz hinterlegte Spalte auf der lin
 Du legst (falls er noch nicht existiert) einen Ordner namens "src" im Contao-Root-Verzeichnis an.  
 Die Struktur sieht dann so aus: mein-contao/src/
 
-
+<br>
 
 ### Schritt 2
 Du kopierst den Ordner "DeinName" in den src-Ordner.  
 Die Struktur sieht dann so aus: mein-contao/src/DeinName
 
-
+<br>
 
 ### Schritt 3
 Du kopierst den Ordner "ContaoManager" in den src-Ordner.  
 Die Struktur sieht dann so aus: mein-contao/src/ContaoManager
 
-
+<br>
 
 ### Schritt 4
 Du erweiterst die "composer.json" im Contao-Root-Verzeichnis mit folgendem Code:
@@ -51,6 +51,7 @@ Du erweiterst die "composer.json" im Contao-Root-Verzeichnis mit folgendem Code:
 	]
  },
 ```
+<br>
 
 ### Schritt 5
 Du führst im Contao-Root-Verzeichnis mit dem Terminal folgenden Befehl aus:
@@ -62,7 +63,7 @@ composer dump-autoload
 Was passiert hier: Dieser Befehl durchsucht Deine Ordner, registriert Deine Klassen und speichert sie in ein paar Dateien, damit nicht bei jedem Aufruf alle Verzeichnisse durchsucht werden müssen.
 
 
-
+<br>
 
 ### Schritt 6
 Du führst im Contao-Root-Verzeichnis mit dem Terminal folgenden Befehl aus:
@@ -90,6 +91,6 @@ Verwende den Zusatz "app_dev.php" in deiner URL beim Aufruf des Backends.
 Diesen Zusatz musst du händisch in die URL eintippen.
 Platziert wird er sofort nach der Domain.
 Die URL im Backend sieht dann beispielsweise so aus:
-https://www.mycontaodemo/app_dev.php/contao/
+www.mycontaodemo/app_dev.php/contao/
 
 
