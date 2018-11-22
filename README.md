@@ -9,6 +9,7 @@ Nach erfolgreicher Installation stellt das Bundle im Backend ein (funktionsloses
 Das Modul wird unter den Backend-Modulen (schwarz hinterlegte Spalte auf der linken Seite) im Bereich "SYSTEM" aufgelistet.
 
 <br>
+
 ## Anleitung zur Installation:
 
 
@@ -81,11 +82,12 @@ Was passiert hier: Contao klinkt sich in diesen Composer Befehl rein und führt 
 <br>
 
 
-Fertig :)
+Fertig :)  
 Wenn alles geklappt hat müsste dich nun im Backend ein Modul namens "mybundle" begrüßen.
 
+<br>
 
-
+###Tipp:
 Um bei Änderungen am Bundle nicht jedes mal den Cache löschen zu müssen, kannst du folgendes machen:
 Verwende den Zusatz "app_dev.php" in deiner URL beim Aufruf des Backends.
 Diesen Zusatz musst du händisch in die URL eintippen.
