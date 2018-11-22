@@ -14,22 +14,19 @@ Das Modul wird unter den Backend-Modulen (schwarz hinterlegte Spalte auf der lin
 
 
 ### Schritt 1
-Du legst (falls er noch nicht existiert) einen Ordner namens "src" im Contao-Root-Verzeichnis an. 
-
+Du legst (falls er noch nicht existiert) einen Ordner namens "src" im Contao-Root-Verzeichnis an.  
 Die Struktur sieht dann so aus: mein-contao/src/
 
 
 
 ### Schritt 2
-Du kopierst den Ordner "DeinName" in den src-Ordner.
-
+Du kopierst den Ordner "DeinName" in den src-Ordner.  
 Die Struktur sieht dann so aus: mein-contao/src/DeinName
 
 
 
 ### Schritt 3
-Du kopierst den Ordner "ContaoManager" in den src-Ordner.
-
+Du kopierst den Ordner "ContaoManager" in den src-Ordner.  
 Die Struktur sieht dann so aus: mein-contao/src/ContaoManager
 
 
