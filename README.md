@@ -12,19 +12,26 @@ Das Modul wird unter den Backend-Modulen (schwarz hinterlegte Spalte auf der lin
 ## Anleitung zur Installation:
 
 
+
 ### Schritt 1
 Du legst (falls er noch nicht existiert) einen Ordner namens "src" im Contao-Root-Verzeichnis an. 
+
 Die Struktur sieht dann so aus: mein-contao/src/
+
 
 
 ### Schritt 2
 Du kopierst den Ordner "DeinName" in den src-Ordner.
+
 Die Struktur sieht dann so aus: mein-contao/src/DeinName
+
 
 
 ### Schritt 3
 Du kopierst den Ordner "ContaoManager" in den src-Ordner.
+
 Die Struktur sieht dann so aus: mein-contao/src/ContaoManager
+
 
 
 ### Schritt 4
@@ -50,18 +57,26 @@ Du erweiterst die "composer.json" im Contao-Root-Verzeichnis mit folgendem Code:
 
 ### Schritt 5
 Du führst im Contao-Root-Verzeichnis mit dem Terminal folgenden Befehl aus:
+
+```json
 composer dump-autoload
+```
 
 Was passiert hier: Dieser Befehl durchsucht Deine Ordner, registriert Deine Klassen und speichert sie in ein paar Dateien, damit nicht bei jedem Aufruf alle Verzeichnisse durchsucht werden müssen.
 
 
 
+
 ### Schritt 6
 Du führst im Contao-Root-Verzeichnis mit dem Terminal folgenden Befehl aus:
+
+```json
 composer install
+```
 
 Was passiert hier: Contao klinkt sich in diesen Composer Befehl rein und führt ein paar Scripte aus, z.B. werden ein paar Symlinks generiert. Alle deine öffentlichen Dateien zum Modul landen ja in /web. In Deinem Fall in
 /web/bundles/test
+
 
 
 
