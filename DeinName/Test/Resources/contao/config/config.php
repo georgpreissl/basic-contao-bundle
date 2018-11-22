@@ -6,7 +6,7 @@
 
 
 
-$GLOBALS['BE_MOD']['system']['fuckoo'] = array();
+$GLOBALS['BE_MOD']['system']['mybundle'] = array();
 
 
 
