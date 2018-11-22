@@ -21,7 +21,7 @@ Die Struktur sieht dann so aus: mein-contao/src/ContaoManager
 
 4) Du erweiterst die "composer.json" im Contao-Root-Verzeichnis mit folgendem Code:
 
-'''
+```json
 "autoload": {
 	"classmap": [
 		"src/ContaoManager/ContaoManagerPlugin.php",
@@ -37,7 +37,7 @@ Die Struktur sieht dann so aus: mein-contao/src/ContaoManager
 		"src/DeinName/Test/Resources/contao/templates/"
 	]
  },
-'''
+```
 
 5) Du führst im Contao-Root-Verzeichnis mit dem Terminal folgenden Befehl aus:
 composer dump-autoload
