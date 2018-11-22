@@ -74,7 +74,10 @@ composer install
 Was passiert hier: Contao klinkt sich in diesen Composer Befehl rein und führt ein paar Scripte aus, z.B. werden ein paar Symlinks generiert. Alle deine öffentlichen Dateien zum Modul landen ja in /web. In Deinem Fall in
 /web/bundles/test
 
-
+<br>
+<br>
+<br>
+<br>
 
 
 Fertig :)
